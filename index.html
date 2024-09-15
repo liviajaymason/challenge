@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rise Challenge</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        function verificarSenha() {
+            // Obtém o valor do input
+            const senha = document.getElementById("senha").value;
+
+            // Define a palavra passe correta
+            const senhaCorreta = "LONDRES"; // Substitua pela senha correta
+
+            // Verifica se a senha está correta
+            if (senha === senhaCorreta) {
+                // Redireciona para outra página se a senha estiver correta
+                window.location.href = "https://www.youtube.com/watch?v=c5OeQDbIQ8U"; // Substitua pela página correta
+            } else {
+                alert("Palavra passe incorreta, tente novamente!");
+            }
+
+            // Impede o envio padrão do formulário
+            return false;
+        }
+    </script>
+</head>
+<body>
+    
+    <form class="fase_1" onsubmit="return verificarSenha()">
+        <h3>Digite a palavra passe</h3>
+        <input type="text" id="senha" placeholder="Digite a senha" required>
+        <button type="submit">Enviar</button> <!-- Botão para enviar -->
+    </form>
+
+    <form class="info">
+        <h4>Regra:</h4>
+        <h5>- Você não pode ver o código fonte do site</h5>
+        <h4>Dica:</h4>
+        <h5>
+            ABÓBORA <br>
+            ㅤ <br>
+            ㅤㅤ <br>
+            ㅤ <br>
+            ㅤ <br>
+            MELÂNCIA <br>
+            ㅤㅤ <br>
+            ㅤㅤ <br>
+            ㅤㅤ <br>
+            PERA <br>
+            ㅤㅤ <br>
+            ㅤ <br>
+            UVA <br>
+            ㅤㅤ <br>
+            ㅤ <br>
+            ㅤ <br>
+            MAÇA <br>
+            ㅤ <br>
+            ㅤㅤ <br>
+            ㅤ <br>
+            SALADA <br>
+            ㅤ <br>
+            MISTA <br>
+            ㅤ <br>
+            ㅤ <br>
+            ㅤ
+        </h5>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+.fase_1 {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #2b2b2b;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fase_1 h3 {
+    text-align: center; /* Centraliza o texto */
+    font-size: 18px; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    color: #ffffff; /* Cor do texto */
+}
+
+.fase_1 input[type="text"] {
+    width: 100%; /* O input ocupa toda a largura do formulário */
+    padding: 10px; /* Espaçamento interno do input */
+    border: 1px solid #ccc; /* Borda do input */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    box-sizing: border-box; /* Garante que o padding não altere a largura */
+    margin-bottom: 20px; /* Espaço abaixo do input */
+}
+
+.fase_1 input[type="text"]:focus {
+    border-color: #000000; /* Cor da borda ao focar */
+    outline: none; /* Remove a linha de foco padrão */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra ao focar no input */
+}
+
+body {
+    background: url("assets/images/background.jpg");
+    margin: 0; /* Remove a margem padrão do navegador */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+    
+    /* Flexbox para centralização */
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Define a altura como 100% da viewport */
+}
+
+.info {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #2b2b2b;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espaçamento entre os dois formulários */
+}
+
+.info h4 {
+    color: white;
+    text-align: center;
+}
+
+.info h5 {
+    color: rgb(255, 0, 0);
+}
